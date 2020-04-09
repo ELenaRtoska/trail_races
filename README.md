@@ -1,6 +1,4 @@
 # trail_races
-Project web(Spring boot and React)
-
 Елена Ртоска 171200
 
 Семинарска по предметот Веб програмирање на ФИНКИ
