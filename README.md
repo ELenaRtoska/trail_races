@@ -23,7 +23,9 @@ Responsive Design.
 
 Упатство за стартување на back-end и front-end апликациите:
 Најпрво потребно е да се изврши апликацијата ( десен клик на TrailRacesProjectApplication -> Run "TrailRacesProjectApplication").
+
 -Back-end се стартува на http://localhost:8080/
+
 -Базата се стартува на http://localhost:8080/h2 и на таа адреса треба да се направат следните поставки:
 1)Saved Settings: Generic H2 (Embedded)
 2)Setting Name: Generic H2 (Embedded)
@@ -32,6 +34,7 @@ Responsive Design.
 5)User Name: sa
 6)Полето за Password треба да е празно
 Сега конектирајте се со базата -> Conect
+
 -Front-end може да се стартува преку терминал (View -> Tool Windows -> Terminal или alt+F12). Во Terminal се пишуваат следните команди:
 1) cd frontend
 2) npm install
