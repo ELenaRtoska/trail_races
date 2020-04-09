@@ -1,0 +1,229 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="us">
+<head>
+    <meta charset="utf-8">
+    <title>Info</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--    Style Social Media Buttons-->
+    <style>
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+
+        .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+
+        .fa-snapchat-ghost {
+            background: #fffc00;
+            color: white;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .fa-skype {
+            background: #00aff0;
+            color: white;
+        }
+
+        .fa-android {
+            background: #a4c639;
+            color: white;
+        }
+
+        .fa-dribbble {
+            background: #ea4c89;
+            color: white;
+        }
+
+        .fa-vimeo {
+            background: #45bbff;
+            color: white;
+        }
+
+        .fa-tumblr {
+            background: #2c4762;
+            color: white;
+        }
+
+        .fa-vine {
+            background: #00b489;
+            color: white;
+        }
+
+        .fa-foursquare {
+            background: #45bbff;
+            color: white;
+        }
+
+        .fa-stumbleupon {
+            background: #eb4924;
+            color: white;
+        }
+
+        .fa-flickr {
+            background: #f40083;
+            color: white;
+        }
+
+        .fa-yahoo {
+            background: #430297;
+            color: white;
+        }
+
+        .fa-soundcloud {
+            background: #ff5500;
+            color: white;
+        }
+
+        .fa-reddit {
+            background: #ff5700;
+            color: white;
+        }
+
+        .fa-rss {
+            background: #ff6600;
+            color: white;
+        }
+    </style>
+
+    <style type="text/css">
+        h1{
+            font-family: Constantia;
+            color: #6f42c1;
+        }
+        body {
+            width: 800px;
+            margin: auto;
+            background-color: beige;
+        }
+        table {
+            width: 100%;
+        }
+
+        table, td, th {
+            padding: 3px 2px;
+        }
+
+        section {
+            float: left;
+            margin: 0 1.5%;
+            width: 63%;
+        }
+
+        aside {
+            float: right;
+            margin: 0 1.5%;
+            width: 30%;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <br><br><br>
+    <h1>Please enter your true data!</h1>
+    <br>
+</header>
+<section>
+
+
+    <form method="POST" th:action="@{/ConfirmationInfo.do}">
+        <label for="clientName">First and last name:</label><br/>
+        <input type="text" id="clientName" name="clientName" style="border-radius: 50px 50px 50px 50px"/><br/>
+        <br>
+        <label for="clientAddress">Address:</label><br/>
+        <textarea cols="40" rows="3" id="clientAddress" name="clientAddress" style="border-radius: 50px 50px 50px 50px"></textarea><br/>
+        <br>
+
+        <label for="phoneNumber">Phone number:</label><br/>
+        <input type="text" id="phoneNumber" name="phoneNumber" style="border-radius: 50px 50px 50px 50px"/><br/>
+        <br>
+        <label for="dateOfBirth">Date of birth:</label><br/>
+        <input type="text" id="dateOfBirth" name="dateOfBirth" style="border-radius: 50px 50px 50px 50px"/><br/>
+        <br>
+
+        <input type="submit" value="Submit" style="border-radius: 50px 50px 50px 50px"/>
+
+    </form>
+
+</section>
+<aside>
+    <table>
+        <tr>
+            <th colspan="2">
+                Your Status
+            </th>
+        </tr>
+
+        <tr>
+            <td><b>Name of the race </b></td>
+            <td th:text="${raceType}"></td>
+        </tr>
+        <tr>
+            <td><b>Man or Woman </b></td>
+            <td th:text="${raceSize}"></td>
+        </tr>
+    </table>
+
+</aside>
+
+<div style="float: left;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <a href="#" class="fa fa-yahoo" style="border-radius: 20px 20px 20px 20px"></a>
+    <a href="#" class="fa fa-tumblr" style="border-radius: 20px 20px 20px 20px"></a>
+    <a href="#" class="fa fa-instagram" style="border-radius: 20px 20px 20px 20px"></a>
+    <a href="#" class="fa fa-facebook" style="border-radius: 20px 20px 20px 20px"></a>
+    <a href="#" class="fa fa-linkedin" style="border-radius: 20px 20px 20px 20px"></a>
+    <a href="#" class="fa fa-skype" style="border-radius: 20px 20px 20px 20px"></a>
+    <a href="#" class="fa fa-twitter" style="border-radius: 20px 20px 20px 20px"></a>
+    <a href="#" class="fa fa-vimeo" style="border-radius: 20px 20px 20px 20px"></a>
+</div>
+
+</body>
+</html>
