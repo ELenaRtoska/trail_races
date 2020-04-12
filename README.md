@@ -38,12 +38,6 @@ Responsive Design. <br />
 
 ### Упатство за стартување на базата:
 -Базата се стартува на http://localhost:8080/h2 и на таа адреса треба да се направат следните поставки:
-1) Saved Settings: Generic H2 (Embedded)
-2) Setting Name: Generic H2 (Embedded)
-3) Driver Class: org.h2.Driver
-4) JDBC URL: jdbc:h2:mem:testdb
-5) User Name: sa
-6) Полето за Password треба да е празно
 
 ![tt](https://user-images.githubusercontent.com/48455819/79077178-c6152280-7cff-11ea-97c8-c765df887a36.png)
 
