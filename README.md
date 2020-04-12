@@ -27,7 +27,7 @@ Responsive Design. <br />
 
 ### Упатство за стартување на front-end:
 1) Откако ја извршивте апликацијата, отворете терминал: <br />
-```View -> Tool Windows -> Terminal или alt+F12```
+```View -> Tool Windows -> Terminal``` или ```alt+F12```
 2) Преку терминал влезете во папката frontend со командата: <br />
 ```cd frontend```
 3) Инсталирајте ги потребните зависности со командата: <br />
