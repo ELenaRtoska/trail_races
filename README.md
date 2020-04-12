@@ -47,6 +47,8 @@ Responsive Design. <br />
 Сега конектирајте се со базата -> Conect
 
 
+![tt](https://user-images.githubusercontent.com/48455819/79077178-c6152280-7cff-11ea-97c8-c765df887a36.png)
+
 
 
 
