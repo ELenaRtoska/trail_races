@@ -20,11 +20,23 @@ Responsive Design.
 Интеграција на календар во апликацијата и библиотеката highcharts.js(една line-chart и една pie-chart).
 
 
-УПАТСТВО за стартување на back-end и front-end апликациите:
+### Упатство за стартување на back-end:
+1) Отворете го проектот во IntelliJ IDEA
+2) Импортирајте ги зависностите од pom.xml (Import changes)
+3) За да ја извршите апликацијата отворете src -> main -> java -> elena.rtoska.trail_races_project -> TrailRacesProjectApplication
+4) Десен клик на TrailRacesProjectApplication -> Run "TrailRacesProjectApplication"
+5) Back-end се стартува на http://localhost:8080/
 
-Најпрво потребно е да се изврши апликацијата (десен клик на TrailRacesProjectApplication -> Run "TrailRacesProjectApplication").
-
--Back-end се стартува на http://localhost:8080/
+### Упатство за стартување на front-end:
+1) Откако ја извршивте апликацијата, отворете терминал: 
+```View -> Tool Windows -> Terminal или alt+F12```
+2) Преку терминал влезете во папката frontend со командата:
+```cd frontend```
+3) Инсталирајте ги потребните зависности со командата:
+```npm install```
+4) Откако ќе се инсталираат потребните зависности, стартувајте ја апликацијата со командата:
+```npm start```
+5) Front-end апликацијата е стартувана на http://localhost:3000/
 
 -Базата се стартува на http://localhost:8080/h2 и на таа адреса треба да се направат следните поставки:
 1) Saved Settings: Generic H2 (Embedded)
@@ -36,12 +48,7 @@ Responsive Design.
 
 Сега конектирајте се со базата -> Conect
 
--Front-end може да се стартува преку терминал (View -> Tool Windows -> Terminal или alt+F12). Во Terminal се пишуваат следните команди:
-1) cd frontend
-2) npm install
-3) npm start
 
-Со третиот чекор front-end апликацијата е стартувана на http://localhost:3000/
 
 
 
